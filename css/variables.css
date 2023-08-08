@@ -1,0 +1,44 @@
+/* Font Icon CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+/* Font Famliy CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* Font Family */
+  --primary-kr: 'Noto Sans KR', sans-serif;
+  --primary-en: 'Roboto', sans-serif;
+
+  /* Text Color */
+  --dark-black: #333333;
+  --light-black: #555555;
+  --dark-gray: #777777;
+  --light-gray: #999999;
+  --placeholder: #C0C0C0;
+  --gloudy-gray: #EEEEEE;
+
+  /* Object Color */
+  /* --sandy-brown: #FAAF56; */
+  --primary-color: #FF5000;
+  --wheat: #F2D0A7;
+  --corn-silk: #FFF0CF;
+  --crimson: #E52424;
+  --brown: #572607;
+  --gainsboro: #D3D3D3;
+  --gold: #FFD700;
+  --silver: #C0C0C0;
+  --bronze: #CD7F32;
+  --forest-green: #39AF4D;
+}

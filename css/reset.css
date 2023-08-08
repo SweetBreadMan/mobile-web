@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  font-weight: 500;
+}
+em {
+  font-style: normal;
+}
+/* Heading Font Size */
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+input,
+button,
+select {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}

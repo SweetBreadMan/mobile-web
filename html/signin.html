@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Sweet Days</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="../js/slick/slick.js"></script>
+  <link rel="stylesheet" href="../js/slick/slick-theme.css">
+  <link rel="stylesheet" href="../js/slick/slick.css">
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/custom.js"></script>
+</head>
+<body>
+  <div class="container signin">
+    <div class="signin-inner">
+      <header class="sign-header signin-header">
+        <button class="btn-back" onclick="history.back()"><i class="bi bi-chevron-left"></i></button>
+        <h2>로그인</h2>
+        <button class="btn-sign-home" onclick="location.href='front.html'"><i class="bi bi-house"></i></button>
+      </header>
+      <div class="signin-content">
+        <div class="signin-form-wrapper">
+          <form>
+            <div class="signin-field">
+              <input type="email" placeholder="이메일 입력">
+              <input type="passowrd" placeholder="비밀번호 입력">
+            </div>
+            <div class="status">
+              <label>
+                <input type="checkbox">
+                <em></em>
+                로그인 상태 유지하기
+              </label>
+              <a href="#none">아이디/비밀번호 찾기</a>
+            </div>
+            <button class="btn-primary btn-signin" type="button">로그인</button>
+          </form>
+          <div class="sns-signin">
+            <span>OR</span>
+            <div>
+              <a href="#none"><img src="../images/sns-icon-01.svg"></a>
+              <a href="#none"><img src="../images/sns-icon-02.svg"></a>
+              <a href="#none"><img src="../images/sns-icon-03.svg"></a>
+              <a href="#none"><img src="../images/sns-icon-04.svg"></a>
+              <a href="#none"><img src="../images/sns-icon-05.svg"></a>
+            </div>
+          </div>
+          <div class="join-member">
+            <span>아직 회원이 아니신가요? <a href="signup.html">회원가입</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
