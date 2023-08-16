@@ -14,7 +14,9 @@ body {
 body.active {
   overflow: hidden;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 /* ######## Common CSS ######## */
 /* Layout CSS */
 .container {
